@@ -67,9 +67,9 @@ Filtering Arguments
 
   By default pycallgraph filters itself out of the trace. Enabling this will include pycallgraph in the trace.
 
-.. cmdoption:: --max-depth
+.. cmdoption:: --max-depth <N>
 
-  Maximum stack depth to trace. Any calls made past this stack depth are not included in the trace.
+  Maximum stack depth to trace. Any calls made past depth N are not included in the trace.
 
 
 Graphviz Arguments
